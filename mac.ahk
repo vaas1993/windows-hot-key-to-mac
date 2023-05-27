@@ -22,6 +22,9 @@ Return
 $!z::
 	Send {Ctrl Down}{z}{Ctrl Up}
 Return
+$!d::
+	Send {Ctrl Down}{d}{Ctrl Up}
+Return
 SetStoreCapslockMode, off
 Capslock::
 	KeyWait, CapsLock
